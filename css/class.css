@@ -1,0 +1,185 @@
+/***************************************************************
+* Class
+***************************************************************/
+form{margin:0;}
+.class-page { background: #F2E9E0 !important; overflow: hidden;}
+
+.class-page .infos-principais { background: #F1E9DF !important;}
+.class-page .breadcrumbs { background: #393939 url(assets/img/bg-black.jpg); color:#E2CB99 !important; }
+.class-page .breadcrumbs a { color:#E2CB99 !important; }
+.class-page .page-topo-detalhe-imovel h2 { border-color: #E2CB99 !important; color: #F1E9DF;}
+.class-page .page-topo-detalhe-imovel p { background: #E2CB99 !important;}
+
+.class-page .resumo-principal { border-top:10px #E2CB99 solid !important;}
+.class-page .cod-imob, .class-page .ico-dinheiro, .class-page .info-condominio { background: #E2CB99 !important;}
+.class-page .fase-imob { color: #E2CB99;}
+
+.class-page .caracteristicas-imovel {  border-bottom:5px #E2CB99 solid !important; background: url(assets/img/bg-imob-class.png) !important;}
+
+.class-page .info-preco, .class-page .resumo-principal .col-md-7, .class-page .imagem-principal, .class-page .menu-sessao, .class-page .resumo {background: url(assets/img/bg-imob-class.png) !important;}
+
+.class-page .menu-sessao  span:hover { background: #D3BE91 !important; border-color: #D3BE91 !important;}
+.class-page .menu-sessao  span.active { background: #D3BE91 !important; border-color: #D3BE91 !important;}
+.class-page .ico-forms {background: #D3BE91 !important;}
+.class-page .ico-forms i { line-height: 80px !important;}
+
+.class-page .contatos-item a { background: #D3BE91 !important;}
+
+.class-page .legenda-galeria {background: #D3BE91 !important;}
+.class-page .galeria-item {border: 1px #D3BE91 solid; border-top: 5px #D3BE91 solid;}
+
+.class-page .mentragens h3{ color: #E2CB99 !important;}
+.class-page .mentragem-item { background: none !important; color: #333 !important}
+
+.class-page .imovel-relacionados-item {border-top: 3px #D3BE91 solid !important;}
+
+.class-page .ico-caracteristica span { color: #E2CB99 !important;}
+
+.class-page .owl-prev {background: #D3BE91 url(assets/img/btn-left.png) !important;}
+.class-page .owl-next {background: #D3BE91 url(assets/img/btn-right.png) !important;}
+/***************************************************************
+* Busca
+**************************************************************/
+
+.class-page .page-topo-search { padding: 20px 0; text-align: center;}
+.class-page .page-topo-search h2 { font-size: 30px; color: #E2CB99 !important; display: inline-block; margin: 0 auto; padding: 15px 30px; border: 1px #E2CB99 solid !important; text-align: center; text-transform: uppercase;}
+
+
+
+.class-banner-item { margin: 10px; position: relative; border-top: 5px #E2CB99 solid;}
+
+.info-item-class { width: 100%; padding: 15px; position: absolute; bottom: 0;  background: url(assets/img/overlay-thumb.png); }
+.info-item-class h3 { color: #FFF; text-transform: uppercase; font-size: 18px;}
+.info-item-class h4 {  text-transform: uppercase; font-size: 13px; color: #E2CB99 !important;}
+
+
+.class-banners .owl-theme .owl-controls .owl-page span {
+display: block;
+width: 18px;
+height: 18px;
+margin: 5px 3px;
+filter: Alpha(Opacity=30);
+opacity: 0.3;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+background: #E2CB99 !important;
+}
+
+
+.class-banners .owl-theme .owl-controls .owl-buttons div {
+width: 60px;
+height: 60px;
+margin: 1px;
+position: absolute;
+top: 50%;
+margin-top: -30px;
+opacity: 10 !important;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 99999;
+}
+
+
+.class-banners .owl-theme .owl-controls .owl-buttons .owl-prev {background: #E2CB99 url(assets/img/btn-left.png); left: -30px; }
+.class-banners .owl-theme .owl-controls .owl-buttons .owl-next {background: #E2CB99 url(assets/img/btn-right.png); right: -30px; }
+
+
+/***************************************************************
+* Menu
+**************************************************************/
+.class-page .menu-site nav{background-color: #e2cb99;}
+.class-page #filtros-busca .filtros {background: #E2CB99;}
+.class-page .menu-site nav li a{border-bottom: 1px solid #ceb171; color: #404040;}
+.class-page .menu-site li a:hover, .class-page .menu-site li.current-menu-item a{color: #404040;}
+
+
+/***************************************************************
+* Filtros
+**************************************************************/
+
+.class-page #filtros-busca {background-color: #e2cb99;}
+.class-banners { padding:50px 0; background: #393939 url(assets/img/bg-black.jpg);  }
+
+
+/***************************************************************
+* Class
+***************************************************************/
+.class-page #class { margin-top: 0; padding-top: 100px; background:none;}
+.class-page #class .sessao-titles h2 { font-family: "Italianno"; color: #E2CB99; font-size: 200px; line-height: 100px; text-align: center;}
+.class-page #class .sessao-titles h3 { font-family: "Italianno"; font-size: 50px; line-height: 50px; text-align: center;}
+
+
+
+.class-page .btn-ver-class:hover { background: #E2CB99; color: #393939; cursor: pointer;}
+
+
+/***************************************************************
+* Gerentes Class
+***************************************************************/
+
+.title-class { padding: 50px 0 150px 0; text-align: center;}
+.title-class h2 { text-transform: uppercase; font-size: 50px; line-height: 50px; display: inline-block; border-bottom: 1px #393939 dotted; margin-bottom: 20px;}
+.title-class h2 span {  font-family: "Italianno"; text-transform: capitalize; font-size: 80px; color: #E2CB99; line-height: 80px;}
+
+.gerentes-class { padding: 50px 0 0 0; background: #F8F2E9;  }
+.lista-gerentes { padding: 30px 0; background: #393939 url(assets/img/bg-black.jpg); text-align: center; }
+
+.diretorClass { display: block !important; margin: 0 auto !important; margin-top: -130px !important;}
+.box-corretor-class { width: 200px; display: inline-block; margin: 25px;}
+.box-corretor-class img { width: 200px; height: 195px; background: #E2CB99; border: 5px #E2CB99 solid;  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.box-corretor-class h4 { text-transform: uppercase; color: #E2CB99; padding-top:10px; margin: 0 !important; font-size: 14px; line-height: 16px; text-align: center;}
+.box-corretor-class p { color: #FFF; text-align: center;}
+
+/***************************************************************
+* Galeria Imóveis
+***************************************************************/
+
+.class-page #imoveis { overflow: hidden; padding: 80px 0; background: none !important; border-top: 10px #393939 solid;}
+.class-page #imoveis .sessao-subtitles h3 { text-align: center; font-size: 20px; padding-bottom: 8px; border-bottom: 1px #393939 dotted; display: inline-block;}
+.class-page #imoveis .sessao-titles select {width: 100%; padding: 8px 75px 8px 15px; background: url(assets/img/seta-select-class.png) no-repeat right, url(assets/img/bg-black.jpg) ;  -moz-appearance: none; text-indent: 0.01px; cursor: pointer; text-overflow: ''; font-weight: 100; border: 0px; border-radius: 0 !important; outline: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; color: #E2CB99; font-size: 50px; line-height: 50px; font-family: "GillSansRegular", Myriad; text-transform: uppercase;}
+
+/* lista categorias */
+.class-page .lista-categorias span { font-size: 10px; font-family: "GillSansRegular"; border: 1px #393939 solid; color: #393939; padding: 8px 15px; display: inline-block; cursor: pointer;  margin: 2px; text-transform: uppercase;}
+.class-page .lista-categorias span:hover, .lista-categorias span.active { background: #393939 url(assets/img/bg-black.jpg); color:#E2CB99; }
+
+/* lista imóveis */
+
+.class-page .lista-imoveis { overflow: hidden; padding-bottom: 50px;}
+.class-page .imovel-item { width: 20%; border: 5px #F2E9E0 solid; text-align: center; position: relative; cursor: pointer; overflow: hidden;}
+.class-page .imovel-item:hover .info-imovel { display: block}
+.class-page .imovel-item img { display: inline-block;}
+
+
+/* detalhes do imóvel */
+.class-page .lista-imoveis .info-imovel { position: absolute; width: 100%; height: 100%; top: 0; padding: 15px 15px; background: url(assets/img/overlay-thumb.png); display: none;}
+.class-page .lista-imoveis .info-imovel h3 { color: #FFF; text-transform: uppercase; font-family: "GillSansLight"; font-size: 13px; }
+.class-page .lista-imoveis .info-imovel h4 { color: #E2CB99; text-transform: uppercase; font-family: "GillSansLight"; font-size: 10px;}
+.class-page .lista-imoveis .info-imovel .resumo { padding: 10px 0; border-top: 1px #E2CB99 dotted; border-bottom: 1px #E2CB99 dotted; margin: 10px 0;}
+.class-page .lista-imoveis .info-imovel .resumo .box-caracteristica { color: #FFF; display: inline-block; padding: 0 7px;}
+.class-page .lista-imoveis .info-imovel .resumo .box-caracteristica h5 { font-size: 10px; text-transform: uppercase; margin-bottom: 5px;}
+.class-page .lista-imoveis .info-imovel .resumo .box-caracteristica span { width: 36px; height: 36px; line-height: 36px; border: 1px #E2CB99 solid; display: inline-block;  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;  }
+.class-page .lista-imoveis .info-imovel .valor { color: #FFF; font-size: 25px; font-family: "GillSansLight";}
+.class-page .lista-imoveis .info-imovel .valor span { font-size: 16px; color: #E2CB99;}
+
+
+
+/***************************************************************
+* Urbanismo
+***************************************************************/
+
+.class-page .bg-site-footer { background: none; overflow: hidden;}
+.class-page #urbanismo h2 { font-size: 80px; font-family: "Italianno"; color:#E2CB99 }
+.class-page #urbanismo img { margin-bottom: 30px;}
+
+
+
+
+/***************************************************************
+* Menu Rodapé
+***************************************************************/
+
+.class-page .linha_footer {background-color: #f2e9e0; padding: 30px 0; border-top: 1px solid #d9d8d8;}
+.class-page footer ul[class*='col-'] li{background-color: #f2e9e0;}
+.class-page .barra-fixa-contato .linha_footer{background-color: #032e6e; padding: 15px 0;}
