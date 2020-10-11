@@ -16,24 +16,24 @@
     <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
     
   
-  <link href="https://www.provenda.com.br/public/stylesheets/select2.min.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/javascript/fancybox/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/fonts/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/stylesheets/component.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/stylesheets/class.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/javascript/iziModal/css/iziModal.min.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/javascript/owl.carousel/owl.theme.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/javascript/owl.carousel/owl.transitions.css" rel="stylesheet" type="text/css">
-      <link href="https://www.provenda.com.br/public/javascript/owl.carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+  <link href="css/select2.min.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="css/component.css" rel="stylesheet" type="text/css">
+      <link href="css/class.css" rel="stylesheet" type="text/css">
+      <link href="css/iziModal.min.css" rel="stylesheet" type="text/css">
+      <link href="css/owl.theme.css" rel="stylesheet" type="text/css">
+      <link href="css/owl.transitions.css" rel="stylesheet" type="text/css">
+      <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
         
-    <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/jquery.js" async=""></script>
+    <script type="text/javascript" src="js/jquery.js" async=""></script>
       
     <!-- Css Padrão  -->
-    <link href="https://www.provenda.com.br/public/stylesheets/default.css" rel="stylesheet" type="text/css">
-        <link href="https://www.provenda.com.br/public/stylesheets/component.css" rel="stylesheet" type="text/css">
-        <link href="https://www.provenda.com.br/public/stylesheets/class.css" rel="stylesheet" type="text/css">
-        <link href="https://www.provenda.com.br/public/stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href="css/default.css" rel="stylesheet" type="text/css">
+        <link href="css/component.css" rel="stylesheet" type="text/css">
+        <link href="css/class.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
       
   
@@ -440,24 +440,24 @@
           <div class="col-xs-3 flex-Ycenter">
   
             <h1>
-              <a href="https://www.provenda.com.br/"><img src="https://www.provenda.com.br/public/images/provenda-logo.png" alt="Provenda Imobiliária"></a>          </h1>
+              <a href="/"><img src="img/provenda-logo.png" alt="Provenda Imobiliária"></a>          </h1>
   
           </div>
           <div class="col-xs-9 flex-Ycenter-Xright">
-            <form id="form_menu" class="flex-Ycenter" method="GET" action="https://www.provenda.com.br/">
+            <form id="form_menu" class="flex-Ycenter" method="GET" action="/">
               <input name="post_type" class="hide" value="imovel-lancamento">
               <ul class="menu-links hide1024 flex-Ycenter">
   
-                <li><a href="https://www.provenda.com.br/#">Comprar</a>                <ul>
+                <li><a href="/#">Comprar</a>                <ul>
   
-                                                            <li><a href="https://www.provenda.com.br/imoveis/revenda">Revenda</a></li>
-                                                                                                                      <li><a href="https://www.provenda.com.br/imoveis/imoveis-de-luxo">Imóveis de Luxo</a></li>
+                                                            <li><a href="/imoveis/revenda">Revenda</a></li>
+                                                                                                                      <li><a href="/imoveis/imoveis-de-luxo">Imóveis de Luxo</a></li>
                                         
                   </ul>
                 </li>
-                                                                              <li><a href="https://www.provenda.com.br/imoveis/aluguel">Aluguel</a></li>
+                                                                              <li><a href="/imoveis/aluguel">Aluguel</a></li>
                                                                             
-                <li><a href="https://www.provenda.com.br/urbanismo">Urbanismo</a></li>
+                <li><a href="/urbanismo">Urbanismo</a></li>
                 <!-- <li></li> -->
               </ul>
               <div id="menu-mobile"></div>
@@ -468,13 +468,13 @@
           <div class="container">
             <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
   
-              <li><a href="https://www.provenda.com.br/">Home</a></li><li class="show1024 hide"><a href="https://www.provenda.com.br/?post_type=&amp;tipo=loteamento">Loteamentos</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-aluguel" onclick="formDados(this);">Aluguel</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-revenda" onclick="formDados(this);">Revenda</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-lancamento" onclick="formDados(this);">Lançamentos</a></li><li class="show1024 hide"><a href="https://www.provenda.com.br/class">Imóveis de luxo</a></li>
-              <li><a href="https://www.provenda.com.br/institucional/sobre-a-provenda">Provenda</a></li>
-              <li><a href="https://www.provenda.com.br/urbanismo">Urbanismo</a></li>
-              <li><a href="https://blog.provenda.com.br/">Blog</a></li>
-              <li><a href="https://www.provenda.com.br/fale-conosco/trabalhe-conosco">Trabalhe Conosco</a></li>
-              <li><a href="https://www.provenda.com.br/perguntas-frequentes">Perguntas Frequentes</a></li>
-              <li><a href="https://www.provenda.com.br/fale-conosco/quero-comprar">Fale Conosco</a></li>
+              <li><a href="/">Home</a></li><li class="show1024 hide"><a href="/?post_type=&amp;tipo=loteamento">Loteamentos</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-aluguel" onclick="formDados(this);">Aluguel</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-revenda" onclick="formDados(this);">Revenda</a></li><li class="show1024 hide"><a href="javascript:;" data-value="imovel-lancamento" onclick="formDados(this);">Lançamentos</a></li><li class="show1024 hide"><a href="/class">Imóveis de luxo</a></li>
+              <li><a href="/institucional/sobre-a-provenda">Provenda</a></li>
+              <li><a href="/urbanismo">Urbanismo</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="/fale-conosco/trabalhe-conosco">Trabalhe Conosco</a></li>
+              <li><a href="/perguntas-frequentes">Perguntas Frequentes</a></li>
+              <li><a href="/fale-conosco/quero-comprar">Fale Conosco</a></li>
             </nav>    </div>
             <div class="clearfix"></div>
           </div>
@@ -488,7 +488,7 @@
           <h3>MOVIDOS POR HISTÓRIAS, RUMO AOS 40 ANOS!</h3>
           <span>Comprar, alugar, vender ou investir, do jeito certo.</span>
           <div class="box-busca-rapida">
-            <form id="searchform" method="post" action="https://www.provenda.com.br/imoveis" class="no-ajax">
+            <form id="searchform" method="post" action="/imoveis" class="no-ajax">
               <div class="col- botoes">
                 <span>O que você procura?</span>
                 <ul class="bots_interesse">
@@ -521,13 +521,13 @@
                   <input type="text" id="s" name="q" placeholder="Digite uma palavra-chave ou código">
                 </div>
                 <div class="col- metade flex-Ycenter">
-                  <img src="https://www.provenda.com.br/public/images/icon_map.png">
-                  <a href="https://www.provenda.com.br/mapa/">Encontre imóveis no mapa</a>
+                  <img src="/public/images/icon_map.png">
+                  <a href="/mapa/">Encontre imóveis no mapa</a>
                 </div>
                 <div class="col- metade flex-Ycenter-Xright">
                   <a href="javascript:;">Busca avançada</a>
                   <div class="bot_padrao flex-Ycenter" onclick="verifInput();">
-                    <img class="hide768" src="https://www.provenda.com.br/public/images/icon_search.png">
+                    <img class="hide768" src="/public/images/icon_search.png">
                     <input type="submit" value="Buscar">
                   </div>
                 </div>
@@ -556,7 +556,7 @@
   <section id="filtros-busca" style="display: none;">
     <div class="container">
       <div class="filtros">
-              <form method="post" action="https://www.provenda.com.br/imoveis" class="no-ajax">
+              <form method="post" action="/imoveis" class="no-ajax">
           <select name="categoria">
             <option value="" selected="">Finalidade</option>
                       <option value="revenda">Revenda</option>
@@ -686,7 +686,7 @@
   
       <div class="lista-banners">
   
-      <div class="banner-item " style="background-image: url('https://www.provenda.com.br/public/uploads/3863fb5c89e3a903acd4409ed7b4b468.png')"></div>
+      <div class="banner-item " style="background-image: url('/public/uploads/3863fb5c89e3a903acd4409ed7b4b468.png')"></div>
   
     </div>
     
@@ -700,14 +700,14 @@
         <div class="col-xs-6 text-left">
           <div class="row">
             <div class="list-circulo pull-left">
-              <img src="https://www.provenda.com.br/public/images/icon-list-home.png" alt="Comprar">
+              <img src="/public/images/icon-list-home.png" alt="Comprar">
             </div>
             <h2 class="text-left" style="line-height: 1;color: rgb(16, 73, 156);font-size: 1.5rem;">Comprar</h2>
           </div>
         </div>
         <div class="col-xs-6 text-right">
           <div class="row">
-              <a href="https://www.provenda.com.br/imoveis/revenda" class="btn btn-default azul">Ver Todos</a>
+              <a href="/imoveis/revenda" class="btn btn-default azul">Ver Todos</a>
           </div>
         </div>
         <div class="clearfix"></div>
@@ -717,9 +717,9 @@
   
             <div class="row">
                           <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resMi5qcGc=5f60bdf61b77c.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resMi5qcGc=5f60bdf61b77c.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
+                      <a href="/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
                   <a href="imoveis/revenda/casa-01-e-02-lote-20-quadra-05-residencial-itaipu-goiania-go-vendaca56444">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -748,9 +748,9 @@
                   <div class="clearfix"></div>
               </div>
                           <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resMTAuanBn5d2e072bc63ce.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resMTAuanBn5d2e072bc63ce.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
+                      <a href="/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
                   <a href="imoveis/revenda/apartamento-ap0679-park-house-flamboyant-jardim-goi-s-vendaap0679">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -779,9 +779,9 @@
                   <div class="clearfix"></div>
               </div>
                           <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resZnJlbnRlIDIuanBn5f3688f665cf9.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resZnJlbnRlIDIuanBn5f3688f665cf9.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
+                      <a href="/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
                   <a href="imoveis/revenda/apartamento-edif-cio-residencial-america-setor-bela-vista-vendaap56421">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -810,9 +810,9 @@
                   <div class="clearfix"></div>
               </div>
                           <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resMDEuanBlZw==5e4d4ae3ec742.jpeg)">
+                  <div class="foto-thumb" style="background-image: url(img/resMDEuanBlZw==5e4d4ae3ec742.jpeg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
+                      <a href="/imoveis/revenda"><h3>Revenda</h3></a>                  </div>
                   <a href="imoveis/revenda/apartamento-edif-cio-oeste-tower-setor-oeste-vendaap56274">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -852,14 +852,14 @@
         <div class="col-xs-6 text-left">
           <div class="row">
             <div class="list-circulo pull-left">
-              <img src="https://www.provenda.com.br/public/images/icon-list-home.png" alt="Alugar">
+              <img src="/public/images/icon-list-home.png" alt="Alugar">
             </div>
             <h2 class="text-left" style="line-height: 1;color: rgb(16, 73, 156);font-size: 1.5rem;">Alugar</h2>
           </div>
         </div>
         <div class="col-xs-6 text-right">
           <div class="row">
-              <a href="https://www.provenda.com.br/imoveis/aluguel" class="btn btn-default azul">Ver Todos</a>
+              <a href="/imoveis/aluguel" class="btn btn-default azul">Ver Todos</a>
           </div>
         </div>
         <div class="clearfix"></div>
@@ -869,9 +869,9 @@
   
             <div class="row">
                             <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resNTI1MS0yLmpwZw==5d2cc8c521738.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resNTI1MS0yLmpwZw==5d2cc8c521738.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
+                      <a href="/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
                   <a href="imoveis/aluguel/sala-comercial-st-dos-afonsos-5251">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -898,9 +898,9 @@
                     <div class="clearfix"></div>
               </div>
                             <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resNDYxNC0xLmpwZw==5d2cc069986ca.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resNDYxNC0xLmpwZw==5d2cc069986ca.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
+                      <a href="/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
                   <a href="imoveis/aluguel/galpao-vila-alzira-4614">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -927,9 +927,9 @@
                     <div class="clearfix"></div>
               </div>
                             <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resNTYzNC0xMi5qcGc=5dc2ddcf2636b.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resNTYzNC0xMi5qcGc=5dc2ddcf2636b.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
+                      <a href="/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
                   <a href="imoveis/aluguel/casa-3-quartos-st-marista-5660">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -957,9 +957,9 @@
                     <div class="clearfix"></div>
               </div>
                             <div class="lancamento-item col-md-3 col-sm-4">
-                  <div class="foto-thumb" style="background-image: url(https://www.okeimoveis.com.br/gestao/public/uploads/imoveis/2062/resNTYzNS03LmpwZw==5dc2dea8b44b5.jpg)">
+                  <div class="foto-thumb" style="background-image: url(img/resNTYzNS03LmpwZw==5dc2dea8b44b5.jpg)">
                     <div class="nomes-lancamento">
-                      <a href="https://www.provenda.com.br/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
+                      <a href="/imoveis/aluguel"><h3>Aluguel</h3></a>                  </div>
                   <a href="imoveis/aluguel/lote-st-sul-5661">
                     <i class="fa fa-plus-circle icon"></i>
                   </a>
@@ -996,12 +996,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <a href="https://www.provenda.com.br/fale-conosco/duvidas-e-sugestoes/">
-          </a><div style="background: url(&quot;https://www.provenda.com.br/public/images/home-contato.jpg&quot;) center center / cover no-repeat;" class="home-contato autoheight"><a href="https://www.provenda.com.br/fale-conosco/duvidas-e-sugestoes/">
-            </a><div class="col-md-6 col-md-offset-6"><a href="https://www.provenda.com.br/fale-conosco/duvidas-e-sugestoes/">
+          <a href="/fale-conosco/duvidas-e-sugestoes/">
+          </a><div style="background: url(&quot;/public/images/home-contato.jpg&quot;) center center / cover no-repeat;" class="home-contato autoheight"><a href="/fale-conosco/duvidas-e-sugestoes/">
+            </a><div class="col-md-6 col-md-offset-6"><a href="/fale-conosco/duvidas-e-sugestoes/">
               <h2><strong>Não achou o que procurava?</strong></h2>
               <p>Nosso time de corretores podem te ajudar a encontrar seu imovel ideal.</p>
-              </a><a href="https://www.provenda.com.br/fale-conosco/duvidas-e-sugestoes/" class="btn btn-default amarelo pull-right">Deixe seu contato</a>
+              </a><a href="/fale-conosco/duvidas-e-sugestoes/" class="btn btn-default amarelo pull-right">Deixe seu contato</a>
             </div>
             <div class="clearfix"> </div>
           </div>
@@ -1009,15 +1009,15 @@
         </div>
   
               <div class="col-md-6">
-          <div style="background: url(https://blog.provenda.com.br/wp-content/uploads/2018/07/288763-P6NYPG-527-810x541.jpg) no-repeat left center / cover;" class="blog">
+          <div style="background: url(img/288763-P6NYPG-527-810x541.jpg) no-repeat left center / cover;" class="blog">
             <div class="col-md-12 autoheight" style="">
-              <a href="https://blog.provenda.com.br/" target="_blank" style="float: none;">
+              <a href="#/" target="_blank" style="float: none;">
                 <h2>Blog Provenda</h2>
               </a>
-              <a href="https://blog.provenda.com.br/saiba-como-funciona-a-compra-e-revenda-de-lotes/" target="_blank">
+              <a href="/saiba-como-funciona-a-compra-e-revenda-de-lotes/" target="_blank">
                 <p>Saiba como funciona a compra e revenda de lotes</p>
               </a>
-              <a href="https://blog.provenda.com.br/saiba-como-funciona-a-compra-e-revenda-de-lotes/" target="_blank">Leia Mais</a>
+              <a href="/saiba-como-funciona-a-compra-e-revenda-de-lotes/" target="_blank">Leia Mais</a>
             </div>
             <div class="clearfix"> </div>
           </div>
@@ -1032,13 +1032,13 @@
       <div class="container">
               <div class="col-xs-2 tel">
           <span>Central de Vendas</span>
-          <h4>62.3238.7171</h4>
+          <h4>62.3598.0500</h4>
         </div>
         
               <div class="col-xs-2 whats">
           <a href="https://api.whatsapp.com/send?phone=5562985240272" target="_blank">
             <span>WhatsApp Provenda</span>
-            <h4>62 98524.0272</h4>
+            <h4>62 8888.9999</h4>
           </a>
         </div>
         
@@ -1094,7 +1094,7 @@
           
     
         <ul class="col-md-2">
-          <li><a href="https://www.provenda.com.br/fale-conosco/quero-comprar/#localizacao">ver todas as filiais</a></li>
+          <li><a href="/fale-conosco/quero-comprar/#localizacao">ver todas as filiais</a></li>
         </ul>
       </div>
     </div>
@@ -1108,9 +1108,9 @@
           </div>
                   
                   <div class="col-xs-2 whats">
-            <a href="https://api.whatsapp.com/send?phone=5562985240272" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=556288888888" target="_blank">
               <span>WhatsApp Provenda</span>
-              <h4>62 98524.0272</h4>
+              <h4>62 8888.0272</h4>
             </a>
           </div>
           
@@ -1130,22 +1130,22 @@
         <div class="col-xs-4 col-md-2 hide768">
           <dl>
             <dt>Institucional</dt>
-            <dd><a href="https://www.provenda.com.br/institucional/sobre-a-provenda">Provenda</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/duvidas-e-sugestoes">Dúvidas e sugestões</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/trabalhe-conosco">Trabalhe conosco</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/quero-comprar/#localizacao">Nossas unidades</a></dd>
+            <dd><a href="/institucional/sobre-a-provenda">Provenda</a></dd>
+            <dd><a href="/fale-conosco/duvidas-e-sugestoes">Dúvidas e sugestões</a></dd>
+            <dd><a href="/fale-conosco/trabalhe-conosco">Trabalhe conosco</a></dd>
+            <dd><a href="/fale-conosco/quero-comprar/#localizacao">Nossas unidades</a></dd>
           </dl>
         </div>
   
         <div class="col-xs-4 col-md-2 hide768">
           <dl>
             <dt>Atendimento Exclusivo</dt>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/avalie-seu-imovel">Avalie seu imóvel</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/quero-vender">Quero vender</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/quero-comprar">Quero comprar</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/quero-alugar">Quero alugar</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/tenho-uma-gleba">Tenho uma gleba</a></dd>
-            <dd><a href="https://www.provenda.com.br/fale-conosco/quero-comprar">Simule seu financiamento</a></dd>
+            <dd><a href="/fale-conosco/avalie-seu-imovel">Avalie seu imóvel</a></dd>
+            <dd><a href="/fale-conosco/quero-vender">Quero vender</a></dd>
+            <dd><a href="/fale-conosco/quero-comprar">Quero comprar</a></dd>
+            <dd><a href="/fale-conosco/quero-alugar">Quero alugar</a></dd>
+            <dd><a href="/fale-conosco/tenho-uma-gleba">Tenho uma gleba</a></dd>
+            <dd><a href="/fale-conosco/quero-comprar">Simule seu financiamento</a></dd>
           </dl>
         </div>
   
@@ -1153,11 +1153,11 @@
           <dl>
             <dt>Procurando imóveis?</dt>
             
-                      <dd><a href="https://www.provenda.com.br/imoveis/revenda">Revenda</a></dd>
-                      <dd><a href="https://www.provenda.com.br/imoveis/aluguel">Aluguel</a></dd>
-                      <dd><a href="https://www.provenda.com.br/imoveis/imoveis-de-luxo">Imóveis de Luxo</a></dd>
+                      <dd><a href="/imoveis/revenda">Revenda</a></dd>
+                      <dd><a href="/imoveis/aluguel">Aluguel</a></dd>
+                      <dd><a href="/imoveis/imoveis-de-luxo">Imóveis de Luxo</a></dd>
             
-            <dd><a href="https://www.provenda.com.br/class" target="_blank">Imóveis de luxo</a></dd>
+            <dd><a href="/class" target="_blank">Imóveis de luxo</a></dd>
           </dl>
         </div>
         <div class="col-md-6 ">
@@ -1167,13 +1167,13 @@
               <div class="redes_footer">
                 <h5>Acompanhe nas redes </h5>
                 
-                <li style="background:#39599f"><a style="color:#39599f" target="_blank" href="https://www.facebook.com/provenda" class="ico-rede"><span><i class="rede_icon_facebook"></i></span></a></li>              <li style="background:#e72331"><a target="_blank" href="https://www.youtube.com/channel/UCHdDl-GPOYrH3dVxi1dXY4Q" class="ico-rede"><span><i class="rede_icon_fa-youtube-square"></i></span></a></li>              <li style="background:#d8b879"><a target="_blank" href="http://instagram.com/provenda" class="ico-rede"><span><i class="rede_icon_fa-instagram"></i></span></a></li>              <li style="background:#38c6ff"><a target="_blank" href="https://www.linkedin.com/company/provenda" class="ico-rede"><span><i class="rede_icon_fa-linkedin-square"></i></span></a></li>                <li style="background:#45b0e3"><a target="_blank" href="https://twitter.com/provenda" class="ico-rede"><span><i class="rede_icon_fa-twitter-square"></i></span></a></li>
+                <li style="background:#39599f"><a style="color:#39599f" target="_blank" href="#" class="ico-rede"><span><i class="rede_icon_facebook"></i></span></a></li>              <li style="background:#e72331"><a target="_blank" href="https://www.youtube.com/channel/UCHdDl-GPOYrH3dVxi1dXY4Q" class="ico-rede"><span><i class="rede_icon_fa-youtube-square"></i></span></a></li>              <li style="background:#d8b879"><a target="_blank" href="http://instagram.com/provenda" class="ico-rede"><span><i class="rede_icon_fa-instagram"></i></span></a></li>              <li style="background:#38c6ff"><a target="_blank" href="https://www.linkedin.com/company/provenda" class="ico-rede"><span><i class="rede_icon_fa-linkedin-square"></i></span></a></li>                <li style="background:#45b0e3"><a target="_blank" href="https://twitter.com/provenda" class="ico-rede"><span><i class="rede_icon_fa-twitter-square"></i></span></a></li>
                 </div>
                 <h5>Receba novidades por email</h5>
                 <div class="form-group gambi_news">
   
                   <div class="gf_browser_unknown gform_wrapper" id="gform_wrapper_2">
-                    <form action="https://www.provenda.com.br/newsletter" class="form-inline" method="post">
+                    <form action="/newsletter" class="form-inline" method="post">
                       <div class="message"></div>
                       <div class="form-group">
                         <input pattern="[a-z A-ZáÁãÃâÂàÀéÉêÊíÍóÓõÕôÔúÚçÇ]+" type="text" class="form-control" name="nome" placeholder="Nome">
@@ -1195,9 +1195,9 @@
       <div class="copyright">
         <div class="row">
           <div class="container flex-Ycenter">
-            <div class="col-md-6"> 2020 | Provenda Imobiliária © - CRECI J 3853 - Todos os direitos reservados.</div>
+            <div class="col-md-6"> 2020 | Imobiliária © Todos os direitos reservados.</div>
             <div class="col-md-6">
-              <a class="bn-" href="http://www.agencia.com.br/" target="_blank"></a>
+              <a class="bn-" href="#" target="_blank"></a>
             </div>
           </div>
         </div>
@@ -1213,18 +1213,18 @@
     <div id="defaultModal" class="iziModal"></div>
     <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js" defer=""></script>
   
-    <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/bootstrap.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/site.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/mask.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/owl.carousel/owl.carousel.min.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/jquery.matchHeight.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/fancybox/jquery.fancybox.min.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/iziModal/js/iziModal.min.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/mobile/classie.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/mobile/modernizr.custom.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/jquery.form.min.js" defer=""></script>
-      <script type="text/javascript" src="https://www.provenda.com.br/public/javascript/forms.js" defer=""></script>
+    <script type="text/javascript" src="js/javascript/bootstrap.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/site.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/mask.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/owl.carousel/owl.carousel.min.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/jquery.matchHeight.js" defer=""></script>
+      <script type="text/javascript" src="js/jquery.fancybox.min.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/iziModal/js/iziModal.min.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/mobile/classie.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/mobile/modernizr.custom.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/jquery.form.min.js" defer=""></script>
+      <script type="text/javascript" src="js/javascript/forms.js" defer=""></script>
       
       
       <!-- Google Analytics -->
