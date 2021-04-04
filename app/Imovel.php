@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Imovel extends Model
 {
-    protected $Table = "imoveis";
+    protected $table = "imoveis";
         public function tipo()
         {
             return $this->belongsTo('App\Tipo', 'tipo_id');

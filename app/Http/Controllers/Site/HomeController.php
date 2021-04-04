@@ -20,8 +20,13 @@ class HomeController extends Controller
         $direcaoImagem = ['center-align','left-align','right-align'];
         $paginacao = true;
 
+        foreach ($imoveis as $imovel) {
+        	$teste = $imovel->titulo;
+        	dump($teste);
+        }
+        
         // return view('site.home', compact('imoveis', 'direcaoImagem', 'tipos', 'cidades', 'paginacao'));
-        return Imovel::get();
+        //return Imovel::get();
         
     }
 }

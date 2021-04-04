@@ -9,24 +9,30 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
-use Symfony\Component\Finder\Finder;
-
-
-Route::get('ola', function () {
-    return view('ola');
+Route::get('/', function () {
+	return view('ola');
 });
 
-Route::get('/', [
-    'as' =>'site.home',
-    'uses' => 'Site\HomeController@index'
+Route::get('home', [
+	'as' => 'site.home',
+	'uses' => 'Site\HomeController@index',
 ]);
 
 Route::get('imobiliaria', function () {
-    return view('imobiliaria/index');
+	return view('imobiliaria/index');
 });
-
+Auth::routes();
+Route::get('/produtos', 'ProdutoController@listarProdutos');
+Route::get('/produtos/mostra/{id}', 'ProdutoController@visualizarProduto')->where('id', '[0-9]+');
+Route::get('/produtos/novo', 'ProdutoController@novoProduto');
+Route::post('/produtos/cadastrar', 'ProdutoController@cadastrarProduto');
+Route::get('/produtos/remover/{id}', 'ProdutoController@removerProduto');
+Route::get('/produtos/json', 'ProdutoController@listaJson');
+Route::get('produtos/sair', 'ProdutoController@sair');
+Route::get('login', 'LoginController@login');
+Route::post('auth', 'LoginController@auth');
 // Route::get('/teste', function (){
 //     return view('teste');
 // });
